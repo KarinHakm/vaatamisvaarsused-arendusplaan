@@ -1,0 +1,41 @@
+@startuml filter-flow
+title Andmevoog: vaatamisväärsuste filtreerimine maakonna järgi (US4)
+
+actor "Külastaja" as user
+participant "Veebiliides\n(HTML, CSS, JS, Leaflet)" as ui
+participant "API kiht\nAttractionController" as api
+participant "Äriloogika kiht\nAttractionService" as service
+participant "Andmekiht\nAttractionRepository" as repo
+database "PostgreSQL" as db
+
+user -> ui : valib maakonna "Saaremaa"
+ui -> api : GET /api/attractions?county=Saaremaa
+activate api
+api -> api : kontrollib päringu parameetrit
+
+alt maakond on lubatud väärtus
+  api -> service : findByCounty("Saaremaa")
+  activate service
+  service -> repo : findByCounty("Saaremaa")
+  activate repo
+  repo -> db : SELECT ... FROM attractions\nWHERE county = ?  (parameeter: Saaremaa)
+  db --> repo : leitud read
+  repo --> service : vaatamisväärsuste nimekiri
+  deactivate repo
+  service --> api : vaatamisväärsuste nimekiri
+  deactivate service
+  api --> ui : 200 OK + JSON
+  ui -> ui : Leaflet joonistab märgid kaardile,\nnimekiri uueneb
+  ui --> user : näeb Saaremaa vaatamisväärsusi
+else maakond on tundmatu
+  api --> ui : 400 Bad Request
+  ui --> user : näeb veateadet
+end
+deactivate api
+
+note over ui
+  Kaardipildid laadib brauser eraldi
+  OpenStreetMapi põhisest kaarditeenusest.
+  Need ei liigu läbi meie serveri.
+end note
+@enduml
