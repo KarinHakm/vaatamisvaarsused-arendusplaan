@@ -20,8 +20,8 @@ See repositoorium sisaldab kooliprojekti, kus kavandan veebirakenduse, mille abi
 | 2. Arendusmetoodika, kasutajalood ja backlog | `docs/02-methodology-backlog.md` | valmis |
 | 2. Tööde haldamise keskkond (GitHub Projects) | link lisatakse siia | tegemata |
 | 3. CASE-vahendite võrdlus ja kasutamise näited | `docs/03-case-tools.md` | tegemata |
-| 4. Tarkvaraarhitektuur | `docs/04-architecture.md` | tegemata |
-| 4. Arhitektuuriskeem (muudetav lähtefail) | `diagrams/` | tegemata |
+| 4. Tarkvaraarhitektuur | `docs/04-architecture.md` | valmis |
+| 4. Arhitektuuriskeem ja andmevoo skeem (muudetavad lähtefailid) | `diagrams/architecture.drawio`, `diagrams/filter-flow.puml` (pildid: `diagrams/architecture.png`, `diagrams/filter-flow.png`) | valmis |
 | 5. Versiooniplaan (SemVer) | `docs/05-versioning.md` | tegemata |
 
 Failide nimed võivad töö käigus veidi muutuda. Tabelit uuendan iga etapi järel.

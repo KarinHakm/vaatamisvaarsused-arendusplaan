@@ -1,4 +1,5 @@
 @startuml filter-flow
+hide footbox
 title Andmevoog: vaatamisväärsuste filtreerimine maakonna järgi (US4)
 
 actor "Külastaja" as user
