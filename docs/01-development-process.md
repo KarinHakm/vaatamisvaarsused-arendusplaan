@@ -69,9 +69,9 @@ Scrumis nimetatakse iteratsiooni sprindiks. Meie projektis kestab üks sprint 2 
 | Iteratsioon | Põhieesmärk |
 |---|---|
 | 1 | Vaatamisväärsused kaardil ja nende detailvaade (esimene töötav versioon) |
-| 2 | Otsing ja filtrid, administraatori võimalus andmeid lisada ja muuta |
+| 2 | Otsing ja filtrid, administraatori võimalus andmeid lisada, muuta ja kustutada |
 | 3 | Kasutajakonto ja lemmikud |
-| 4 | Arvustused, parandused tagasiside põhjal, ettevalmistus avalikuks väljalaskeks |
+| 4 | Arvustused, lähedal asuvad vaatamisväärsused (kui aega jääb), parandused tagasiside põhjal, ettevalmistus avalikuks väljalaskeks |
 
 ## 1.4 Kui klient muudab arenduse keskel nõudeid
 

@@ -198,16 +198,14 @@ Eelmises dokumendis kirjeldatud neli iteratsiooni on Scrumis neli sprinti.
 
 | Sprint | Eesmärk (`docs/01-development-process.md`) | Tööd | Punktid |
 |---|---|---|---|
-| 1 | Vaatamisväärsused kaardil ja nende detailvaade | T1, US1, US2 | 13 |
-| 2 | Otsing ja filtrid, administraator saab andmeid lisada ja muuta | US3, US4, US5 | 16 |
+| 1 | Vaatamisväärsused kaardil ja nende detailvaade (esimene töötav versioon) | T1, US1, US2 | 13 |
+| 2 | Otsing ja filtrid, administraatori võimalus andmeid lisada, muuta ja kustutada | US3, US4, US5 | 16 |
 | 3 | Kasutajakonto ja lemmikud | US6, US7 | 8 |
-| 4 | Arvustused, parandused tagasiside põhjal, ettevalmistus väljalaskeks | US8, US9, eelmiste sprintide tagasisidest tekkinud parandused | 8 + parandused |
+| 4 | Arvustused, lähedal asuvad vaatamisväärsused (kui aega jääb), parandused tagasiside põhjal, ettevalmistus avalikuks väljalaskeks | US8, US9, eelmiste sprintide tagasisidest tekkinud parandused | 8 + parandused |
 
 Sprintide maht on erinev, sest punktid on esialgsed hinnangud. Meeskonna tegelik töökiirus selgub alles pärast esimest sprinti. Kui 2. sprint osutub liiga suureks, liigub osa tööst järgmisesse sprinti. Selle otsuse teeb tooteomanik prioriteetide järgi.
 
-Võrreldes eelmise dokumendiga lisandus 4. sprinti US9 (lähedal asuvad vaatamisväärsused). See on Could-lugu ja tehakse ainult siis, kui aega jääb.
-
-> **Kooskõlastamist vajav muudatus:** failis `docs/01-development-process.md` ei ole 4. iteratsiooni kirjelduses US9 veel mainitud. See tuleb hiljem lisada, kui mõlemad dokumendid koos üle vaatame.
+US9 (lähedal asuvad vaatamisväärsused) on Could-prioriteediga valikuline töö. See tehakse 4. sprindis ainult siis, kui pärast teisi töid jääb selleks aega.
 
 ## 2.6 Esimese sprindi plaan
 
