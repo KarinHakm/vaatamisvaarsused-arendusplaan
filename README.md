@@ -17,7 +17,7 @@ See repositoorium sisaldab kooliprojekti, kus kavandan veebirakenduse, mille abi
 | Ülesande osa | Fail | Seis |
 |---|---|---|
 | 1. Arendusprotsess ja mudelite võrdlus | `docs/01-development-process.md` | valmis |
-| 2. Arendusmetoodika, kasutajalood ja backlog | `docs/02-methodology-backlog.md` | tegemata |
+| 2. Arendusmetoodika, kasutajalood ja backlog | `docs/02-methodology-backlog.md` | valmis |
 | 2. Tööde haldamise keskkond (GitHub Projects) | link lisatakse siia | tegemata |
 | 3. CASE-vahendite võrdlus ja kasutamise näited | `docs/03-case-tools.md` | tegemata |
 | 4. Tarkvaraarhitektuur | `docs/04-architecture.md` | tegemata |
