@@ -19,7 +19,7 @@ See repositoorium sisaldab kooliprojekti, kus kavandan veebirakenduse, mille abi
 | 1. Arendusprotsess ja mudelite võrdlus | `docs/01-development-process.md` | valmis |
 | 2. Arendusmetoodika, kasutajalood ja backlog | `docs/02-methodology-backlog.md` | valmis |
 | 2. Tööde haldamise keskkond (GitHub Projects) | link lisatakse siia | tegemata |
-| 3. CASE-vahendite võrdlus ja kasutamise näited | `docs/03-case-tools.md` | tegemata |
+| 3. CASE-vahendite võrdlus ja kasutamise näited | `docs/03-case-tools.md` | valmis |
 | 4. Tarkvaraarhitektuur | `docs/04-architecture.md` | valmis |
 | 4. Arhitektuuriskeem ja andmevoo skeem (muudetavad lähtefailid) | `diagrams/architecture.drawio`, `diagrams/filter-flow.puml` (pildid: `diagrams/architecture.png`, `diagrams/filter-flow.png`) | valmis |
 | 5. Versiooniplaan (SemVer) | `docs/05-versioning.md` | tegemata |
@@ -35,14 +35,19 @@ docs/          – kavandamise dokumendid
 diagrams/      – skeemide muudetavad lähtefailid ja nende pildid
 ```
 
-## Kavandatud töövahendid
+## Töövahendid
 
-Need on esialgsed valikud. Põhjendused lisan vastavatesse dokumentidesse.
+Tööriistade võrdlus ja kasutamise näited on failis `docs/03-case-tools.md`.
+
+**Kasutusele võetud:**
 
 - **Git ja GitHub** – muudatuste salvestamiseks ja dokumentide hoidmiseks
-- **GitHub Projects** – kasutajalugude ja tööde planeerimiseks
-- **diagrams.net** – arhitektuuriskeemi koostamiseks
-- **PlantUML** – UML-skeemide koostamiseks tekstina
+- **diagrams.net** – arhitektuuriskeemi koostamiseks (`diagrams/architecture.drawio`)
+- **PlantUML** – andmevoo järjestusskeemi koostamiseks tekstina (`diagrams/filter-flow.puml`)
+
+**Kavandatud, veel tegemata:**
+
+- **GitHub Projects** – kasutajalugude ja tööde planeerimiseks tahvlil
 
 ## AI kasutamine
 
