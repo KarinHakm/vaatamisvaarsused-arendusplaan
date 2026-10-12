@@ -1,6 +1,6 @@
 # Eesti vaatamisväärsuste avastamise veebirakendus – arendusplaan
 
-> **Seis:** arendusplaani dokumentatsioon ja projektijuhtimise tahvel on koostatud. Rakendust ei ole ehitatud. Allolevas tabelis on näha, mis on valmis ja mis veel puudub.
+> **Seis:** arendusplaani dokumentatsioon ja projektijuhtimise tahvel on koostatud. Rakendust ei ole ehitatud. Allolevas tabelis on näha ülesande osade seis.
 
 ## Projekti kirjeldus
 
