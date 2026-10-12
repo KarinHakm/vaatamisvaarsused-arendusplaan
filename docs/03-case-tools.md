@@ -13,9 +13,9 @@ Selles projektis kasutan CASE-vahendeid peamiselt **disainietapis** (arhitektuur
 | **diagrams.net** | Modelleerimine ja disain | Arhitektuuriskeem | Lähtefail `diagrams/architecture.drawio` ja sellest eksporditud pilt `diagrams/architecture.png` | kasutatud |
 | **PlantUML** | Modelleerimine (UML) | Andmevoo järjestusskeem | Lähtefail `diagrams/filter-flow.puml` ja sellest genereeritud pilt `diagrams/filter-flow.png` | kasutatud |
 | **Git ja GitHub** | Versioonihaldus | Dokumentide ja skeemide muudatuste salvestamine | Repositoorium ja commit'ide ajalugu | kasutatud |
-| **GitHub Projects** | Planeerimine | Kasutajalood ja sprindid tahvlil | – | **planeeritud, veel tegemata** |
+| **GitHub Projects** | Planeerimine | Kasutajalood ja sprindid tahvlil | [Tahvel](https://github.com/users/KarinHakm/projects/2): 13 tööd (T1, US1–US12) koos prioriteedi, suuruse ja sprindiga | kasutatud |
 
-**Õpetaja nõude täitmine:** nõue on kasutada vähemalt kahte tarkvaraarendust toetavat vahendit, millest vähemalt üks on modelleerimise või disaini vahend. Selle nõude täidavad **diagrams.net ja PlantUML**, sest mõlemad on modelleerimise vahendid ja mõlemaga on projektis skeem tehtud. Git ja GitHub on lisaks kasutusel versioonihalduseks. **GitHub Projects on praegu veel tegemata.** Arvestan seda nõude täitmisel alles siis, kui tahvel on loodud.
+**Õpetaja nõude täitmine:** nõue on kasutada vähemalt kahte tarkvaraarendust toetavat vahendit, millest vähemalt üks on modelleerimise või disaini vahend. Selle nõude täidavad **diagrams.net ja PlantUML**, sest mõlemad on modelleerimise vahendid ja mõlemaga on projektis skeem tehtud. Lisaks on kasutusel Git ja GitHub versioonihalduseks ning GitHub Projects tööde planeerimiseks.
 
 ## 3.3 Milliseid arendustegevusi need vahendid toetavad
 
@@ -23,7 +23,7 @@ Tabel käsitleb laiemalt projektitöö tegevusi, mitte ainult arendusprotsessi e
 
 | Tegevus | Vahend | Kuidas aitab |
 |---|---|---|
-| Nõuete analüüs ja planeerimine | GitHub Projects (planeeritud) | Kasutajalood, prioriteedid ja sprindid on ühes kohas ja nähtavad |
+| Nõuete analüüs ja planeerimine | GitHub Projects | Kasutajalood, prioriteedid ja sprindid on ühes kohas ja nähtavad |
 | Disain ja arhitektuur | diagrams.net | Näitab komponente ja nende seoseid ühel pildil |
 | Disain ja arhitektuur | PlantUML | Näitab, kuidas päring liigub kihtide kaudu andmebaasini ja tagasi |
 | Dokumenteerimine | diagrams.net, PlantUML | Skeemid on dokumentide sees piltidena ja lähtefailid on muudetavad |

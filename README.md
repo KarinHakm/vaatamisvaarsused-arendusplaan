@@ -1,6 +1,6 @@
 # Eesti vaatamisväärsuste avastamise veebirakendus – arendusplaan
 
-> **Seis:** mustand. Töö on pooleli. Allolevas tabelis on näha, mis on valmis ja mis veel puudub.
+> **Seis:** arendusplaani dokumentatsioon ja projektijuhtimise tahvel on koostatud. Rakendust ei ole ehitatud. Allolevas tabelis on näha, mis on valmis ja mis veel puudub.
 
 ## Projekti kirjeldus
 
@@ -18,7 +18,7 @@ See repositoorium sisaldab kooliprojekti, kus kavandan veebirakenduse, mille abi
 |---|---|---|
 | 1. Arendusprotsess ja mudelite võrdlus | `docs/01-development-process.md` | valmis |
 | 2. Arendusmetoodika, kasutajalood ja backlog | `docs/02-methodology-backlog.md` | valmis |
-| 2. Tööde haldamise keskkond (GitHub Projects) | link lisatakse siia | tegemata |
+| 2. Tööde haldamise keskkond (GitHub Projects) | [GitHub Projectsi tahvel](https://github.com/users/KarinHakm/projects/2) | valmis |
 | 3. CASE-vahendite võrdlus ja kasutamise näited | `docs/03-case-tools.md` | valmis |
 | 4. Tarkvaraarhitektuur | `docs/04-architecture.md` | valmis |
 | 4. Arhitektuuriskeem ja andmevoo skeem (muudetavad lähtefailid) | `diagrams/architecture.drawio`, `diagrams/filter-flow.puml` (pildid: `diagrams/architecture.png`, `diagrams/filter-flow.png`) | valmis |
@@ -44,10 +44,7 @@ Tööriistade võrdlus ja kasutamise näited on failis `docs/03-case-tools.md`.
 - **Git ja GitHub** – muudatuste salvestamiseks ja dokumentide hoidmiseks
 - **diagrams.net** – arhitektuuriskeemi koostamiseks (`diagrams/architecture.drawio`)
 - **PlantUML** – andmevoo järjestusskeemi koostamiseks tekstina (`diagrams/filter-flow.puml`)
-
-**Kavandatud, veel tegemata:**
-
-- **GitHub Projects** – kasutajalugude ja tööde planeerimiseks tahvlil
+- **GitHub Projects** – kasutajalugude ja tööde planeerimiseks tahvlil ([tahvel](https://github.com/users/KarinHakm/projects/2))
 
 ## AI kasutamine
 

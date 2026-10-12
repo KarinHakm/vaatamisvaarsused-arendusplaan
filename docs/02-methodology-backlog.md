@@ -271,7 +271,7 @@ Selline enesekontroll ei asenda teise inimese ülevaatust, sest oma vigu on rask
 
 ## 2.7 Tööde planeerimine ja jälgimine
 
-Hakkan tööde nimekirja haldama **GitHub Projectsis**, kui tahvel on loodud. Link tahvlile lisatakse siia ja README-sse.
+Tööde nimekirja hallatakse **GitHub Projectsis**: <https://github.com/users/KarinHakm/projects/2>. Tahvlil on 13 tööd: tehniline töö T1 (issue #1) ja kasutajalood US1–US12 (issue'd #2–#13). Tööde sisu on võetud punktidest 2.3 ja 2.4.
 
 **Tahvli veerud:**
 
@@ -283,7 +283,9 @@ Hakkan tööde nimekirja haldama **GitHub Projectsis**, kui tahvel on loodud. Li
 | Ülevaatusel | Valmis tööd, mida kontrollitakse vastuvõtukriteeriumide ja valmis olemise määratluse järgi |
 | Valmis | Tööd, mis vastavad valmis olemise määratlusele |
 
-Iga kasutajalugu lisatakse GitHubi eraldi issue'na. Sellel on väljad **prioriteet** (Must, Should, Could, Won't), **suurus** (punktid) ja **sprint**.
+Iga kasutajalugu ja tehniline töö on GitHubis eraldi issue. Tahvlil on igal tööl väljad **prioriteet** (Must, Should, Could, Won't), **suurus** (punktid) ja **sprint** (Sprint 1–4). Tahvlil on kaks vaadet: veergudega vaade „Sprinditahvel” ja tabelivaade.
+
+Praegune seis tahvlil: 1. sprindi tööd (T1, US1, US2) on veerus **Sprint Backlog** ja ülejäänud tööd veerus **Backlog**. Veergudes „Töös”, „Ülevaatusel” ja „Valmis” töid ei ole, sest see projekt on arendusplaan ja rakendust ei ehitata.
 
 **Kuidas planeerimine ja jälgimine käib:**
 
