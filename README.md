@@ -22,7 +22,7 @@ See repositoorium sisaldab kooliprojekti, kus kavandan veebirakenduse, mille abi
 | 3. CASE-vahendite võrdlus ja kasutamise näited | `docs/03-case-tools.md` | valmis |
 | 4. Tarkvaraarhitektuur | `docs/04-architecture.md` | valmis |
 | 4. Arhitektuuriskeem ja andmevoo skeem (muudetavad lähtefailid) | `diagrams/architecture.drawio`, `diagrams/filter-flow.puml` (pildid: `diagrams/architecture.png`, `diagrams/filter-flow.png`) | valmis |
-| 5. Versiooniplaan (SemVer) | `docs/05-versioning.md` | tegemata |
+| 5. Versiooniplaan (SemVer) | `docs/05-versioning.md` | valmis |
 
 Failide nimed võivad töö käigus veidi muutuda. Tabelit uuendan iga etapi järel.
 
